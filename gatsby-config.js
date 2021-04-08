@@ -1,7 +1,3 @@
-if (process.env.GATSBY_CLOUD !== `true`) {
-  require("dotenv").config();
-}
-
 module.exports = {
   siteMetadata: {
     title: `Gatsby starter site with Kentico Kontent`,
